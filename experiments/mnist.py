@@ -13,7 +13,7 @@ from lipschitz_utils import *
 from max_eigenvalue import k_generic_power_method
 
 from models.mnist import mnist
-from experiments.bruteforce_optim import optim_nn_pca_greedy
+from seqlip import optim_nn_pca_greedy
 
 n_sv = 200
 
